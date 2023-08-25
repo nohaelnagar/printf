@@ -52,5 +52,5 @@ int getStartEndLength(const char *start, const char *end)
 			add_buffer(*start), length++;
 		start++;
 	}
-	return length;
+	return (length);
 }
